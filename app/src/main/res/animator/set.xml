@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator android:propertyName="rotationX"
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="180"
+        android:duration="500"
+        />
+    <set android:ordering="together">
+        <objectAnimator android:propertyName="rotationY"
+            android:valueType="floatType"
+            android:valueFrom="0"
+            android:valueTo="180"
+            android:duration="500"
+            android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+            />
+        <objectAnimator android:propertyName="scaleX"
+            android:valueType="floatType"
+            android:valueFrom="1.0"
+            android:valueTo="2.0"
+            android:duration="500"
+            android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+            />
+    </set>
+</set>

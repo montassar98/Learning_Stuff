@@ -1,0 +1,15 @@
+<vector
+    android:height="24dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0"
+    android:width="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:pivotY="12" android:pivotX="12" android:name="addToCheck">
+    <path
+        android:strokeLineCap="square"
+        android:strokeColor="#373737"
+        android:strokeWidth="2"
+        android:name="add"
+        android:pathData="M 24 12 L 0 12 M 12 0 L 12 24  "/>
+    </group>
+</vector>
